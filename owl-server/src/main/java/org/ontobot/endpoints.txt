@@ -1,0 +1,5 @@
+'http://java_backend_url/taxonomy/validate'
+'http://java_backend_url/taxonomy/generate'
+'http://java_backend_url/simpleOP/validate'
+'http://java_backend_url/completeOWL/validate'
+'http://java_backend_url/completeOWL/generate'

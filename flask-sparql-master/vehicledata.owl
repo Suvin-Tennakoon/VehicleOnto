@@ -1,0 +1,173 @@
+<rdf:RDF
+    xmlns:nob="http://swat.cse.lehigh.edu/resources/onto/nobel.owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	<owl:Ontology rdf:about="">
+		<rdfs:comment>Vehicle Ontology</rdfs:comment>
+		<owl:imports rdf:resource="nobel.owl" />
+		<rdfs:label>Vehicle Ontology</rdfs:label>
+	</owl:Ontology>
+  <nob:VehicleType rdf:about="http://troubleshoot.org/vehicle#Johannes_Andreas_Grib_Fibiger">
+    <nob:name>Fibiger</nob:name>
+    <nob:Problem>
+      <nob:InternalProb rdf:about="http://troubleshoot.org/vehicle/internal/laureates/1926/#this">
+        <nob:description>carcinoma</nob:description>
+        <nob:myear rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1926</nob:myear>
+      </nob:InternalProb>
+    </nob:Problem>
+    <nob:Association>
+      <nob:Organization rdf:about="http://troubleshoot.org/vehicle#Copenhagen_University_Copenhagen,_Toyota"/>
+    </nob:Association>
+    <nob:vmodel>http://dbpedia.org/resource/Toyota</nob:vmodel>
+    <nob:year rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1928</nob:year>
+    <nob:outYear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1867</nob:outYear>
+<nob:photo>http://troubleshoot.org/vehicle/internal/laureates/1926/fibiger.jpg</nob:photo>
+  </nob:VehicleType>
+  <nob:VehicleType rdf:about="http://troubleshoot.org/vehicle#Wendell_Meredith_Stanley">
+    <nob:name>Stanley</nob:name>
+    <nob:Problem>
+      <nob:ElectricalProb rdf:about="http://troubleshoot.org/vehicle/electrical/laureates/1946/#this">
+        <nob:description>form</nob:description>
+        <nob:description>crystallized</nob:description>
+        <nob:myear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1946</nob:myear>
+      </nob:ElectricalProb>
+    </nob:Problem>
+    <nob:Association>
+      <nob:Organization rdf:about="http://troubleshoot.org/vehicle#Rockefeller_Institute_for_Medical_Research_Princeton,_NJ,_Honda"/>
+    </nob:Association>
+    <nob:vmodel>http://dbpedia.org/resource/Honda</nob:vmodel>
+    <nob:year rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1971</nob:year>
+    <nob:outYear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1904</nob:outYear>
+<nob:photo>http://troubleshoot.org/vehicle/electrical/laureates/1946/stanley.jpg</nob:photo>
+  </nob:VehicleType>
+  <nob:VehicleType rdf:about="http://troubleshoot.org/vehicle#Eugenio_Montale">
+    <nob:name>Montale</nob:name>
+    <nob:Problem>
+      <nob:TransmissionProb rdf:about="http://troubleshoot.org/vehicle/transmission/laureates/1975/#this">
+        <nob:description>illusions</nob:description>
+        <nob:myear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1975</nob:myear>
+      </nob:TransmissionProb>
+    </nob:Problem>
+    <nob:vmodel>http://dbpedia.org/resource/BMW</nob:vmodel>
+    <nob:year rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1981</nob:year>
+    <nob:outYear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1896</nob:outYear>
+<nob:photo>http://troubleshoot.org/vehicle/transmission/laureates/1975/montale.jpg</nob:photo>
+  </nob:VehicleType>
+  <nob:VehicleType rdf:about="http://troubleshoot.org/vehicle#Karl_Ferdinand_Braun">
+    <nob:name>Braun</nob:name>
+    <nob:Problem>
+      <nob:BrakingProb rdf:about="http://troubleshoot.org/vehicle/braking/laureates/1909/#this">
+        <nob:description>telegraphy</nob:description>
+        <nob:myear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1909</nob:myear>
+      </nob:BrakingProb>
+    </nob:Problem>
+    <nob:Association>
+      <nob:Organization rdf:about="http://troubleshoot.org/vehicle#Strasbourg_University_Strasbourg,_Alsace,_then_Tesla"/>
+    </nob:Association>
+    <nob:vmodel>http://dbpedia.org/resource/Tesla</nob:vmodel>
+    <nob:year rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1918</nob:year>
+    <nob:outYear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1850</nob:outYear>
+<nob:photo>http://troubleshoot.org/vehicle/braking/laureates/1909/braun.jpg</nob:photo>
+  </nob:VehicleType>
+  <nob:VehicleType rdf:about="http://troubleshoot.org/vehicle#James_M_Buchanan_Jr">
+    <nob:name>Buchanan</nob:name>
+    <nob:Problem>
+      <nob:EngineProb rdf:about="http://troubleshoot.org/vehicle/engine/laureates/1986/#this">
+        <nob:description>contractual</nob:description>
+        <nob:myear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1986</nob:myear>
+      </nob:EngineProb>
+    </nob:Problem>
+    <nob:Association>
+      <nob:Organization rdf:about="http://troubleshoot.org/vehicle#Center_for_Study_of_Public_Choice_Fairfax,_VA,_Honda"/>
+    </nob:Association>
+    <nob:vmodel>http://dbpedia.org/resource/Honda</nob:vmodel>
+    <nob:outYear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1919</nob:outYear>
+<nob:photo>http://troubleshoot.org/vehicle/engine/laureates/1986/buchanan.jpg</nob:photo>
+  </nob:VehicleType>
+  <nob:VehicleType rdf:about="http://troubleshoot.org/vehicle#Aleksandr_Isayevich_Solzhenitsyn">
+    <nob:name>Solzhenitsyn</nob:name>
+    <nob:Problem>
+      <nob:TransmissionProb rdf:about="http://troubleshoot.org/vehicle/transmission/laureates/1970/#this">
+        <nob:description>transmission</nob:description>
+        <nob:myear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1970</nob:myear>
+      </nob:TransmissionProb>
+    </nob:Problem>
+    <nob:vmodel>http://dbpedia.org/resource/Subaru</nob:vmodel>
+    <nob:outYear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1918</nob:outYear>
+<nob:photo>http://troubleshoot.org/vehicle/transmission/laureates/1970/solzhenitsyn.jpg</nob:photo>
+  </nob:VehicleType>
+  <nob:VehicleType rdf:about="http://troubleshoot.org/vehicle#Jody_Williams">
+    <nob:name>Williams</nob:name>
+    <nob:Problem>
+      <nob:FuelandOilProb rdf:about="http://troubleshoot.org/vehicle/fuelandoil/laureates/1997/#this">
+        <nob:description>mines</nob:description>
+        <nob:myear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1997</nob:myear>
+      </nob:FuelandOilProb>
+    </nob:Problem>
+    <nob:vmodel>http://dbpedia.org/resource/Honda</nob:vmodel>
+    <nob:outYear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1950</nob:outYear>
+<nob:photo>http://troubleshoot.org/vehicle/fuelandoil/laureates/1997/williams.jpg</nob:photo>
+  </nob:VehicleType>
+  <nob:VehicleType rdf:about="http://troubleshoot.org/vehicle#Desmond_Mpilo_Tutu">
+    <nob:name>Tutu</nob:name>
+    <nob:Problem>
+      <nob:FuelandOilProb rdf:about="http://troubleshoot.org/vehicle/fuelandoil/laureates/1984/#this">
+        <nob:myear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1984</nob:myear>
+      </nob:FuelandOilProb>
+    </nob:Problem>
+    <nob:vmodel>http://dbpedia.org/resource/Micro</nob:vmodel>
+    <nob:outYear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1931</nob:outYear>
+<nob:photo>http://troubleshoot.org/vehicle/fuelandoil/laureates/1984/tutu.jpg</nob:photo>
+  </nob:VehicleType>
+  <nob:VehicleType rdf:about="http://troubleshoot.org/vehicle#Shimon_Peres">
+    <nob:name>Peres</nob:name>
+    <nob:Problem>
+      <nob:FuelandOilProb rdf:about="http://troubleshoot.org/vehicle/fuelandoil/laureates/1994/#this">
+        <nob:description>East</nob:description>
+        <nob:myear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1994</nob:myear>
+      </nob:FuelandOilProb>
+    </nob:Problem>
+    <nob:vmodel>http://dbpedia.org/resource/Nissan</nob:vmodel>
+    <nob:outYear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1923</nob:outYear>
+<nob:photo>http://troubleshoot.org/vehicle/fuelandoil/laureates/1994/peres.jpg</nob:photo>
+  </nob:VehicleType>
+  <nob:VehicleType rdf:about="http://troubleshoot.org/vehicle#Miguel_Angel_Asturias">
+    <nob:name>Asturias</nob:name>
+    <nob:Problem>
+      <nob:TransmissionProb rdf:about="http://troubleshoot.org/vehicle/transmission/laureates/1967/#this">
+        <nob:description>America</nob:description>
+        <nob:myear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1967</nob:myear>
+      </nob:TransmissionProb>
+    </nob:Problem>
+    <nob:vmodel>http://dbpedia.org/resource/Mitsubishi</nob:vmodel>
+    <nob:year rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1974</nob:year>
+    <nob:outYear rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >1899</nob:outYear>
+<nob:photo>http://troubleshoot.org/vehicle/transmission/laureates/1967/asturias.jpg</nob:photo>
+  </nob:VehicleType>
+  </rdf:RDF>
